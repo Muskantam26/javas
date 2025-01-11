@@ -41,7 +41,7 @@ document.write(text2.toLowerCase())//lowercase method
 
 function day3(){
     let text1="hello-developer"
-     console.log(text1.charAt(1));
+     console.log(text1.charAt(2));
      console.log(text1.charCodeAt(0));
      console.log(text1.split("-"));//string convert to array
      console.log(text1.indexOf("o"));
