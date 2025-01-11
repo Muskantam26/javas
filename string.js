@@ -39,7 +39,7 @@ document.write(text2.toLowerCase())//lowercase method
 //day2();
 
 
-function day3(){
+function day2(){
     let text1="hello-developer"
      console.log(text1.charAt(2));
      console.log(text1.charCodeAt(0));
@@ -47,5 +47,19 @@ function day3(){
      console.log(text1.indexOf("o"));
     
     }
-    day3();
+    day2();
 
+    //=========================================================day3================================================================================ 
+
+    function day3(){
+          let text="I am learning javascript and Javascript is fum"
+          document.write(text.replace("javascript","JS"))
+          document.write(text.replace(/javascript/g,"JS"))//this will change to  same name as javascript
+         document.write(text.replace(/javascript/gi,"JS"))  
+
+
+          //global=>g    i=>case insenstive 
+
+        //   let arr=[2,4,5,6,"muskan"]//array
+    }
+   // day3();
