@@ -55,7 +55,7 @@ gn();
 
 
 
-//BOM:=====================browser object model: intraction with the browser
+//BOM:=====================browser object model: intraction with the browser.
 
 //alert:
 //prompt:
