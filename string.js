@@ -26,18 +26,18 @@ string();
 // ===================method of string=============================
 
 function day2(){
-// let text="javascriptiseasy"
+ let text="javascriptiseasy"
 // console.log(typeof(text));
 // document.write(text.length): string to check length of string.
-// document.write(text.slice(4,13))//slice method
+ document.write(text.slice(4,13))//slice method
 // let text1="sid"
 // let text2="JAVASCRIPT"
 // document.write(text1.concat(text2))//concat method
 // document.write(text.toUpperCase())//uppercase method
 // document.write(text2.toLowerCase())//lowercase method
 
-let text3="    JAVASCRIPT          "
-console.log(text3.trim());
+// let text3="    JAVASCRIPT          "
+// console.log(text3.trim());
 
 }
 //day2();
