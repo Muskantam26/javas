@@ -26,7 +26,7 @@ console.log(objj);
 delete objj.city //delete
 console.log(objj);
 
-console.log(objj.Fruits[1]);
+console.log(objj.Fruits[1]);//acceess array
 
 objj.cybrom();//access function
 
