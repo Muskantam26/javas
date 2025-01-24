@@ -1,7 +1,7 @@
-let okk=(name,age,age2)=>{
+let okk=(name,age)=>{
 
-    console.log(name);
-    console.log(age+age2);
+    console.log(`my name is${name} and my age is${age}`);
+
 }
 
 // okk();
