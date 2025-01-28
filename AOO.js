@@ -43,10 +43,15 @@ let Aoo=[{
     age:20,
     city:"bhopal"
 }]
-
+let show=document.querySelector("#show")
 
 let a=Aoo.map((e)=>{
-    return e.name
+    // return e.name +e.age +e.city
+
+    show.innerHTML+=(`<div><h1>${e.name} ${e.age} ${e.city}</h1></div>`)
+    show.style.color="red"
+    
+
 })
 console.log(a)
 
