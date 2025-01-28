@@ -4,7 +4,7 @@
 
 // map method :
 
-let a=[3,7,1,9,5,6]
+// let a=[3,7,1,9,5,6]
 
 // let ans=a.map((e)=>{
 
@@ -17,19 +17,38 @@ let a=[3,7,1,9,5,6]
 
 // let ans=a.filter((e)=>{
 
-//     // return e>5
-
-//     return (e%2==0)
+    // return e>5
+          // return (e%2==0)
 // })
 
 // console.log(ans);
 // for each method:return to string:
 
-let ans =a.forEach((e)=>{
+// let ans =a.forEach((e)=>{
 
-    console.log(e*2);
+//     console.log(e*2);
 
+// })
+
+let Aoo=[{
+    name:"muskan",
+    age:20,
+    city:"bhopal"
+},{
+    name:"roshni",
+    age:21,
+    city:"bhopal"
+},{
+    name:"ishika",
+    age:20,
+    city:"bhopal"
+}]
+
+
+let a=Aoo.map((e)=>{
+    return e.name
 })
+console.log(a)
 
 
 
