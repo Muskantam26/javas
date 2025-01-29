@@ -48,8 +48,83 @@ let show=document.querySelector("#show")
 let a=Aoo.map((e)=>{
     // return e.name +e.age +e.city
 
-    show.innerHTML+=(`<div><h1>${e.name} ${e.age} ${e.city}</h1></div>`)
+    show.innerHTML+=
+    (`<div>
+       
+  <h1>${e.name} </h1>
+        <h1>${e.age}</h1>
+        <h1> ${e.city}</h1>
+          </div> `)
     show.style.color="red"
+
+    let aoo=[{
+        name:"roshni",
+        age :20,
+        city:"bhopal"
+        
+        },
+        {
+            name:"shush",
+            age :21,
+            city:"sgp" 
+        },
+        
+        {
+            name:"shushie",
+            age :19,
+            city:"indore"
+        }
+        ,{
+        name:"boy",
+        age :21,
+        city:"bhopal"
+        
+        },
+        {
+            name:"shushmita",
+            age :21,
+            city:"delhi" 
+        },
+        
+        {
+            name:"sunshine",
+            age :23,
+            city:"mumbai"
+        }
+        
+        
+        ]
+        
+        // let d= document.querySelector(".name")
+        // d.style.display="flex"
+        
+        
+        let a= document.querySelector("#data")
+        
+        aoo.map((e) =>{
+        a.innerHTML+=(`
+           <table>
+           <thead>
+           <tr>
+            <td>${e.name}</td>
+            <td> ${e.age}</td>
+             <td> ${e.city}</td>
+             <tr>
+             </thead>
+             </table>
+        
+            `)
+        // a.style.display="flex"
+         a.style.gap="20px"
+         a.style.width="40%"
+         a.style.height="100vh"
+        // a.style.backgroundColor="pink"
+        // a.style.color="green"
+        
+        
+        
+        
+        })
     
 
 })
