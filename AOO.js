@@ -127,6 +127,10 @@ let a=Aoo.map((e)=>{
         })
     
 
+        // Q.: e function: call back function: aisa function jo kisi ke  parameter me kiya gya ho:
+
+        // Q. : map: hiegher order function: jo kisi parameter ko apne funtion me liya gya ho
+
 })
 console.log(a)
 

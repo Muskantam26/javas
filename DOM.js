@@ -22,7 +22,7 @@ function f1(){
     const a=0
     }
     f2()
-                                                                            //  DAY 2
+                                                                          //  DAY 2
     function f3(){
       let a=document.querySelector("#t")
       t.innerHTML="<h1>hello</h1>";
