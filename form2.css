@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+div #hello{
+    margin-top: 10%;
+text-align: center;
+justify-content: center;
+align-items: center;
+background-color: palevioletred;
+width: 30%;
+padding-top: 5%;
+padding-bottom: 5%;
+margin-left: 30%;
+
+
+
+}
+#sub{
+    border-radius: 15%;
+    font-size: 20px;
+}
+#sub:hover{
+    background-color:black;
+    color: white;
+}
