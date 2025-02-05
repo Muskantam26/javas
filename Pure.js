@@ -28,8 +28,10 @@
 // inp=addEventListener("input",()=>{
 //     console.log(inp.value);
 // })
-let inp=document.querySelector("inpbox")
+let inp=document.querySelector("#inpbox")
+let input=document.querySelector("#inpp")
 inp=addEventListener("input",()=>{
-    document.write(`<h1>${inpbox.value}</h1>`);
+    // document.write(`<h1>${inpbox.value}</h1>`);
+     input.innerHTML=inpbox.value
     
 })
