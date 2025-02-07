@@ -35,3 +35,4 @@ inp=addEventListener("input",()=>{
      input.innerHTML=inpbox.value
     
 })
+
