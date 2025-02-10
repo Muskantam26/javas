@@ -57,9 +57,9 @@ function day2(){
 
     function day3(){
           let text="I am learning javascript and Javascript is fum"
-        //   document.write(text.replace("javascript","JS"))
-        //   document.write(text.replace(/javascript/g,"JS"))//this will change to  same name as javascript
-        //  document.write(text.replace(/javascript/gi,"JS"))  
+          document.write(text.replace("javascript","JS"))
+          document.write(text.replace(/javascript/g,"JS"))//this will change to  same name as javascript
+         document.write(text.replace(/javascript/gi,"JS"))  
 
 
           //global=>g    i=>case insenstive 
