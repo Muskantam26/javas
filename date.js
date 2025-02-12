@@ -13,3 +13,34 @@ console.log(time.getMinutes())
 
 console.log(time.getSeconds())
 console.log(time.getMilliseconds())
+
+
+// let tim=["sunday", "monday", "tuesday", "wednessday", "friday", "saturday"]
+// let ctim[time.getDay(1)]
+// console.log(c[1])
+
+
+let tt=()=>{
+
+    let tim=["sunday", "monday", "tuesday", "wednessday", "friday", "saturday"]
+    let c=tim[time.getDay()]
+
+
+    let hyy=document.querySelector("#hy")
+
+    hyy.innerHTML=c
+
+
+}
+
+
+
+// task : age calculator : you need to input box
+
+
+
+
+
+
+
+
