@@ -25,3 +25,25 @@ let h=()=>{
         },1000)
      }
 };
+
+// let tim=()=>{
+//   let time =new Date;
+
+//   let cc=document.querySelector("#digital")
+
+//   cc.innerHTML=`${time.getHours()}:${time.getMinutes()}:${time.getSeconds()}`
+    
+// }
+
+let alarm=setInterval((clock)=>{
+  let time=new Date;
+  let cc=document.querySelector("#digital")
+    cc.innerHTML=`${time.getHours()}:${time.getMinutes()}:${time.getSeconds()}`
+
+
+  
+},2000)
+
+
+
+
