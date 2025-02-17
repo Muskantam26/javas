@@ -38,33 +38,38 @@
 // alarm clock
 
 
-let c=null;
-let a;
-let clock=()=>{
-   c=document.querySelector("#alarmtime").value
-   a=document.querySelector("#status")
 
-   
-if(!(c.includes(':'))){
-  a.innerHTML = "Please enter a valid time!";
-  return;
-}
-  a.innerHTML="alaram set for"+c;
-};
-let stop=setInterval(()=>{
+let clock=()=>{
+  let c=document.querySelector("#alarmtime").value
+   let a=document.querySelector("#status")
+
+   let m=document.querySelector("#music")
+ 
+let stopp=setInterval(()=>{
   let time=new Date;
   
 
-  let cu=`${time.getHours()}:${time.getMinutes()}:${time.getSeconds()}`
+  let cu=`${time.getHours().toString().padStart(2,"0")}:${time.getMinutes().toString().padStart(2,"0")}`
   console.log(cu)
 
   if(c==cu){
-    alert("time to wake up");
+    a.innerHtml="time to wake up"
+    m.play()
   }
-  if(c==cu){
-    clearInterval(stop)
+  else{
+    a.innerHtml="alarm is set"
   }
- 
-},1000);
+  // if(c==cu){
+  //   clearInterval(stop)
+  // }
 
+  setTimeout(()=>{
+    clearInterval(m.pause())
+    a.innerHtml="set alarm again"
+  },8000)
+ 
+},2000);
+
+
+}
 
